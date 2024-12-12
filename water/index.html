@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>three.js webgl - shaders - ocean</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+  <link type="text/css" rel="stylesheet" href="main.css">
+  <style>
+    /* main.css */
+    body {
+      margin: 0;
+      overflow: hidden;
+    }
+
+    #container {
+      width: 100vw;
+      height: 100vh;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="container"></div>
+  <div id="info">
+    <a href="https://threejs.org" target="_blank" rel="noopener">three.js</a> - webgl ocean
+  </div>
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "../build/three.module.js",
+        "three/addons/": "./jsm/"
+      }
+    }
+  </script>
+  <script type="module" src="main.js"></script> <!-- Link para o arquivo JS -->
+</body>
+
+</html>
